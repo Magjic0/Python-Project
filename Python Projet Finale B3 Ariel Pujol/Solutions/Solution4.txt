@@ -1,0 +1,2 @@
+On va lancer le script client.py et entrer dans la console l'IP et le port obtenu avec l'API Flask
+ce qui nous permettra d'obtenir le dernier indice ECHO-X

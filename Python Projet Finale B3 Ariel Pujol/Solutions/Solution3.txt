@@ -1,0 +1,4 @@
+On doit lancer Indice3.py et cliquer sur le lien localhost:5000 dans la console et ajouté
+à la fin du lien l'indice obtenu lors du scrapping soit /api?code=Z51-KEY
+  
+Vous obtiendrez un indice important pour l'étape suivante soit : 10.31.35.63:8888

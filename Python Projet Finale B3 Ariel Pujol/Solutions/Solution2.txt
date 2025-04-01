@@ -1,0 +1,5 @@
+Le code de solution se trouve dans les scripts plus précisement le dossier scraping.py il nous faut juste modifier
+le chemin par rapport à ou on se trouve pour faire fonctionner le script.
+
+En scrappant le site en utilisant notre code secret soit SECRET51, on obtient un nouvelle indice : /api?code=Z51-KEY
+  

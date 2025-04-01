@@ -1,0 +1,13 @@
+On va d'abbord utiliser le code obtenu lors de la dernière étape ECHO-X afin de décrypter le fichier zip
+et obtenir les instrucitons.
+
+Pour trouver la bonne valeur des 2 paramètre N_ESTIMATORS et MAX_DEPTH on a 2 indices le premier un nombre
+héxadécimal que l'on devra décrypter afin d'obtenir le nom d'une sur l'API flask qui nous permettra de le récupérer.
+
+Le deuxième indice nous indique qu'il y a un indice dans le serveur archive en réalité il s'agit de la page web
+sur laquelle on retrouve écrit la valeur du deuxième paramètre.
+
+Une fois les paramètre mis on obtient 100% de précision avec le script de machine learning et on sait
+qu'il y a 8 signaux anormaux dans le rapport incomplet. 
+
+Fin de l'enquête

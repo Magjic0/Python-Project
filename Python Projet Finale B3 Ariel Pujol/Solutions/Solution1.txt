@@ -1,0 +1,3 @@
+L'indice est un code césar avec un décalage de 8 qui lorsqu'on le décrypte on obtient le mots de passe du fichier zip soit ALIEN51.
+
+Ensuite en ouvrant le zip avec ALIEN51 on obtient l'indice SECRET51 qui nous servira pour l'étape 2
