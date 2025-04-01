@@ -24,7 +24,7 @@ def api_access():
 
     return jsonify({
         "status": "refuse",
-        "message": "Clé incorrecte. Cette tentative a ete enregistree."
+        "message": "Cle incorrecte. Cette tentative a ete enregistree."
     }), 403
 
 @app.route("/api/deep", methods=["GET"])
