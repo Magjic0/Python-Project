@@ -19,7 +19,7 @@ def api_access():
             "status": "autorise",
             "clearance": "TOP-SECRET",
             "message": "Cle acceptee. Connexion etablie.",
-            "connexion": "192.168.0.42:8888"
+            "connexion": "10.31.35.63:8888"
         }), 200
 
     return jsonify({
