@@ -10,7 +10,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
     conn, addr = s.accept()
     with conn:
-        print(f"[🔐] Connexion de : {addr}")
+        print(f"Connexion de : {addr}")
         message = (
             "Bienvenue agent.\n"
             "Transmission sécurisée :\n"
