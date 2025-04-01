@@ -1,0 +1,9 @@
+🔎 Étape 2 : Extraction des Archives
+
+Nos équipes ont découvert une page web locale contenant des indices confidentiels.
+Cependant, aucune information n’est affichée à l’écran. Le contenu est dissimulé dans les profondeurs du code.
+
+🎯 Votre mission : développer votre propre script de scraping pour analyser cette page,
+et en extraire les informations critiques en ciblant les bonnes balises et attributs.
+
+Seul un agent maîtrisant l’analyse HTML pourra progresser.
