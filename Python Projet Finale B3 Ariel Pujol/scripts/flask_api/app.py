@@ -11,26 +11,26 @@ def api_access():
     if not code:
         return jsonify({
             "status": "erreur",
-            "message": "Aucune clé fournie."
+            "message": "Mauvaise cle fournie."
         }), 400
 
     if code == CLE_AUTORISEE:
         return jsonify({
-            "status": "autorisé",
+            "status": "autorise",
             "clearance": "TOP-SECRET",
-            "message": "Clé acceptée. Connexion établie.",
+            "message": "Cle acceptee. Connexion etablie.",
             "connexion": "192.168.0.42:8888"
         }), 200
 
     return jsonify({
-        "status": "refusé",
-        "message": "Clé incorrecte. Cette tentative a été enregistrée."
+        "status": "refuse",
+        "message": "Clé incorrecte. Cette tentative a ete enregistree."
     }), 403
 
 @app.route("/api/deep", methods=["GET"])
 def deep_access():
     return jsonify({
-        "message": "Accès au niveau de profondeur autorisé.",
+        "message": "Acces au niveau de profondeur autorise.",
         "param": "MAX_DEPTH = None"
     }), 200
 
